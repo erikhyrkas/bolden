@@ -86,7 +86,7 @@ def entry():
     #     eos_token_id=tokenizer_.eos_token_id,
     # )
 
-    confg = GPT2Config(
+    config = GPT2Config(
         vocab_size=tokenizer_.vocab_size,
         n_positions=context_length_,
         bos_token_id=tokenizer_.bos_token_id,
