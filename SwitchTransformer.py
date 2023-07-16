@@ -2,6 +2,8 @@ import torch
 from transformers import GPT2LMHeadModel
 
 
+# TODO: this is a work in progress idea.
+
 class SwitchTransformer(torch.nn.Module):
     def __init__(self, model, num_experts):
         super().__init__()
